@@ -28,3 +28,24 @@ flex-basis : 100px ; [its changes the width each of item ]
 justify-content : center ; [select all item in center]
 justify-content : space-between ;
 
+
+|     |     |
+| main item--- |    justify-content
+|     |     |
+align-item
+
+align-items : flex-start , flex-end , center
+
+height : 70 vh   vh is viewport height which we basically see the window
+
+
+(make this item separate) align-self : flex - start
+align-content : center {only for wrap (flexbox wrap)}
+
+#### Flex sizing :
+content width < width < flex basis < min-width / max-width
+
+	flex-basis : 0 ;
+	 flex-grow : 1 ;
+	 flex-shrink : 1;       flex : 1 1 0
+	                    grow shrink basis
