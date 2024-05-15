@@ -49,11 +49,3 @@ content width < width < flex basis < min-width / max-width
 	 flex-grow : 1 ;
 	 flex-shrink : 1;       flex : 1 1 0
 	                    grow shrink basis
-
-
-
-
-
-
-
-
